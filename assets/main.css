@@ -1,4 +1,4 @@
-#cafea {
+#cafe1 {
 
     background-color: black;
     display: flex;
@@ -12,61 +12,69 @@
 
 }
 
+.boton-tienda:link {text-decoration: none;}
+.boton-tienda {color: white;}
 
-
-.cafea1 {
+.cafe1 {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 2%;
 
 }
 
-.cafea2 {
+
+.cafe1a { margin-left: 2%;}
+
+.cafe1bottom {display:flex;
+    gap: 3%;}
+
+.cafe1b {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
-}  
+}
 
-.cafea2>div {
+.cafe1b>div {
     margin: 4%;
 }
 
-.cafea3 {
+.cafe1c {
 
     display: flex;
     align-items: center;
-    margin-left: 10%
-;
+    margin-left: 10%;
 
 }
-.cafea3 > div {
+
+.cafe1c>div {
     margin: 6px;
 }
+
 .init_sesion {
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
-width: 100px;
-     background-color: #515051 ;
+    width: 100px;
+    background-color: #515051;
 
 }
-.cafea4 {
+
+.cafe1d {
     margin-right: 3%;
 }
 
 
 
-.cafe1 {
+.cafe3 {
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: start;
-   
-margin: 4% 2% 4% 2%
 
+    margin: 4% 2% 4% 2%
 }
 
 
@@ -81,27 +89,10 @@ margin: 4% 2% 4% 2%
 }
 
 .boton-tienda:hover {
-background-color: #6A8C7D;
+    background-color: #6A8C7D;
 
 }
 
-#buttom {
-    background: #1F1815;
-    border-radius: 10px;
-
-    padding: 20px;
-    height: 20px;
-    width: 40px;
-}
-
-#buttom2 {
-    background: #2A5B45;
-    border-radius: 10px;
-
-    padding: 20px;
-    height: 200px;
-    width: 40000px;
-}
 
 .class1cafe {
 
@@ -113,80 +104,85 @@ background-color: #6A8C7D;
 }
 
 
-#cafe3 {
-    
-    align-items: center ;
-   flex-wrap: wrap;
-   
+#cafe4 {
+
+    align-items: center;
+    flex-wrap: wrap;
+
 
 }
-#cafe3 >div {
 
- margin-top: 2%;
- margin-bottom:  2%;
+#cafe4>div {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
-#cafe3 {
+#cafe4 {
 
     display: flex;
     flex-direction: column;
     margin: 2%;
-    column-gap: 400cm;
+    
 }
 
-.cafe3b {
+.cafe4b {
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 3%
-
-
+    gap: 24px
 }
+
 .bolsa-cafe {
     border-style: groove;
-
-border-radius: 2%;
+    margin-top: 2%;
+    border-radius: 2%;
+    padding: 20px;
 }
+
 .bolsa-cafe:hover {
 
-background-color: #F7F5F3;
+    background-color: #F7F5F3;
 }
 
-#cafe4 {
+#cafe6 {
 
 
-display: flex;
-margin: 2%;}
+    display: flex;
+    margin: 1%;
+}
 
-.cafe4a {
+.cafe6a {
     background-color: #E3DED7;
     display: flex;
     flex-direction: column;
     justify-content: start;
-padding: 5%;
-width: 45%;
+    padding: 2%;
+    width: 45%;
 }
-.cafe4b {
+
+.cafe6b {
 
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding:  5%;
+    padding: 5%;
     width: 40%;
 
 }
+
 .boton3 {
 
     width: 82px;
     height: 30px;
     padding: 8px;
     border-radius: 6%;
-    
+
 
 }
 

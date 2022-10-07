@@ -1,0 +1,188 @@
+#cafe1 {
+
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 64px;
+    padding: 12px, 40px, 12px, 40px;
+
+}
+
+.boton-tienda:link {text-decoration: none;}
+.boton-tienda {color: white;}
+
+
+.cafe1a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+
+}
+
+.cafe1b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.cafe1c>div {
+    margin: 6px;
+}
+
+
+.cafe1b>div {
+    margin: 4%;
+}
+
+.cafe1d {
+
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+.cafe1c>div {
+    margin: 6px;
+}
+
+.init_sesion {
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    width: 100px;
+    background-color: #515051;
+
+}
+
+.cafe1d {
+    margin-right: 3%;
+}
+
+
+
+.cafe3 {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+
+    margin: 4% 2% 4% 2%
+}
+
+
+.boton-tienda {
+    background: #2A5B45;
+    border-radius: 10px;
+
+    padding: 10px;
+    height: 10px;
+    width: 10px;
+
+}
+
+.boton-tienda:hover {
+    background-color: #6A8C7D;
+
+}
+
+
+.class1cafe {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1cm;
+
+}
+
+
+#cafe4 {
+
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+#cafe4>div {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+#cafe4 {
+
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    
+}
+
+.cafe4b {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px
+}
+
+.bolsa-cafe {
+    border-style: groove;
+    margin-top: 2%;
+    border-radius: 2%;
+padding: 20px;}
+
+.bolsa-cafe:hover {
+
+    background-color: #F7F5F3;
+}
+
+#cafe6 {
+
+
+    display: flex;
+    margin: 1%;
+}
+
+.cafe6a {
+    background-color: #E3DED7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2%;
+    width: 45%;
+}
+
+.cafe6b {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5%;
+    width: 40%;
+
+}
+
+.boton3 {
+
+    width: 82px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 6%;
+
+
+}
+
+/* Nav en el Header */
