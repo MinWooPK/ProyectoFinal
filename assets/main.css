@@ -2,9 +2,11 @@
     font-family: 'Outfit';
 }
 
-body {
-    margin: 0px;
+a {
+    color: white;
+    text-decoration: none;
 }
+
 
 #cafe1 {
 
@@ -87,7 +89,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/image/imagen/cafeconleche2.jpeg);
+    background-image: url(/ProyectoFinal/image/imagen/cafeconleche2.jpeg);
     background-image: center;
     background-position: center;
     background-size: cover;
@@ -214,14 +216,68 @@ body {
 }
 
 #cafeGreen {
+
     background-color: #2A5B45;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 48px 386px;
-    gap: 24px;
+    height: 621px;
+}
 
+.PreguntaFrecuente {
+
+    color: white;
+
+}
+
+#cafeGreen>p {
+
+    font-size: 12px;
+
+}
+
+.CafeGreen3Cajas {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 668px;
+    height: 425px;
+
+}
+
+.ComoHagoElPedido {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 668px;
+
+
+}
+
+.PorqueLosPreciosSonTanBajos {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    width: 668px;
+}
+
+.ResolvemosTusDudas {
+
+    color: #FFFFFF;
+}
+
+.EsPosibleEnviarCafeAMiOficina {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 668px;
 
 }
 
@@ -261,41 +317,55 @@ body {
     width: 588px;
 }
 
-
-
-
 #cafe6 {
 
     background-color: #E3DED7;
     display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 1280px;
+    height: 552px;
 }
 
 .cafe6a {
+    margin-top: 98.57px;
     margin-left: 40px;
-
+    height: 552px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
-    
-    width: 588px;
-    height: 320px;
+
+    font-size: 14px;
+
 }
+
+.cafe6Headr {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 .cafe6b {
     margin-right: 40px;
-
     background-color: white;
-
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    padding: 5%;
-    width: 38%;
-    gap: 10px;
-
+    flex-direction: column;
+    width: 588px;
+    padding: 32px 32px 32px 48px;
+    gap: 24px;
 
 }
+.cafe6bContainer {
+    display: flex;
+    flex-direction: row;
+    width: 588px;
+    gap: 24px;
+}
+
+.cafe6bContainer > input {  width: 470px; }
 
 .boton3 {
 
@@ -306,58 +376,87 @@ body {
 }
 
 footer {
-    height: 310px;
+    width: 1280px;
     background: #1F1815;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    color: #FFFFFF
 }
 
-.footerA {
+.titleFooter {
 
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+.footerLeft {
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 16px;
+
 }
 
-.footerBCD {
+.Telefono {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #515051;
+    /* padding: 12px 24px 12px 24px; */
+    width: 182px;
+    height: 42px;
+
+}
+
+.Telefono:nth-child(2) {
+    font-size: 14px;
+}
+
+.emailHolaCafeAltura {
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    background-color: #515051;
+}
+
+
+.footerMid {
+    margin-top: 80.61px;
+    margin-left: 321.67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+
+}
+
+.footerRight {
+    margin-top: 80.61px;
+    margin-left: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footerEnd {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-.footerB {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-
-
-.footerC {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 144px;
-    left: 577px;
-    top: 2.61px;
-
-}
-
-.footerD {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-
-    width: 255.33px;
-    height: 80px;
-    left: 800px;
-    top: 3px;
-}
-
-.footerE {
-
     background: grey;
+    height: 40px;
+    width: 1280px;
+
+
+}
+
+.footerEnd>p {
+    margin-left: 540.5px;
 }
