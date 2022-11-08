@@ -1,11 +1,14 @@
 * {
     font-family: 'Outfit';
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 
 
 #cafe1 {
@@ -123,6 +126,7 @@ a {
     border-radius: 8px;
     width: 316px;
     height: 232px;
+    gap:16px;
 
 }
 
@@ -142,8 +146,9 @@ a {
     justify-content: flex-start;
     align-items: center;
     text-align: start;
+    padding: 48px 40px;
+    gap: 8px;
 
-    margin: 4% 2% 4% 2%
 }
 
 
@@ -167,7 +172,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 1cm;
+    gap: 16px;   
 
 }
 
@@ -205,9 +210,11 @@ a {
 
 .bolsa-cafe {
     border-style: groove;
-    margin-top: 2%;
     border-radius: 2%;
     padding: 20px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bolsa-cafe:hover {
@@ -223,62 +230,74 @@ a {
     align-items: center;
     justify-content: center;
     height: 621px;
+    gap: 24px;
 }
 
 .PreguntaFrecuente {
-
     color: white;
-
 }
 
 #cafeGreen>p {
-
     font-size: 12px;
-
 }
 
 .CafeGreen3Cajas {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
     width: 668px;
     height: 425px;
 
+
 }
+
 
 .ComoHagoElPedido {
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
     width: 668px;
+    padding: 24px;
 
+}
 
+.ComoHagoElPedidoHeader {
+    display: flex;
+
+   justify-content: space-between;
 }
 
 .PorqueLosPreciosSonTanBajos {
-    border-radius: 10px;
     background-color: #FFFFFF;
-    padding-left: 24px;
-    padding-right: 24px;
-
+    border-radius: 10px;
+    padding: 24px;
     width: 668px;
 }
 
-.ResolvemosTusDudas {
+.PorqueLosPreciosSonTanBajosHeader {
+    display: flex;
+    justify-content: space-between;
 
-    color: #FFFFFF;
+
+}
+.EsPosibleEnviarCafeAMiOficinaHeader {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .EsPosibleEnviarCafeAMiOficina {
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px;
     width: 668px;
 
+}
+
+.ResolvemosTusDudas {
+
+    color: #FFFFFF;
 }
 
 #cafe5 {
@@ -334,7 +353,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     font-size: 14px;
 
 }
@@ -358,6 +376,7 @@ a {
     gap: 24px;
 
 }
+
 .cafe6bContainer {
     display: flex;
     flex-direction: row;
@@ -365,7 +384,14 @@ a {
     gap: 24px;
 }
 
-.cafe6bContainer > input {  width: 470px; }
+label {}
+
+.cafe6bContainer>input {
+    display: block;
+    width: 970px;
+
+
+}
 
 .boton3 {
 
@@ -453,7 +479,6 @@ footer {
     background: grey;
     height: 40px;
     width: 1280px;
-
 
 }
 

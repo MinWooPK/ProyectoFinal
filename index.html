@@ -49,7 +49,7 @@
 
         </div>
         <div class="cafe1c">
-            <div> <a title="phone" href="tel:+34919490518"> <img src="image/emoti/telefono.png" alt="phone"> </a> </div>
+            <div> <a title="phone" href="tel:+34919490518"> <img src="/ProyectoFinal/image/" alt="phone"> </a> </div>
             <div class="init_sesion">
                 <a title="init" href="init.html"> <img src="image/emoti/inicio_secion.png" alt="inicio_secion"> </a>
             </div>
@@ -99,7 +99,7 @@
             <div class="cafe2b">
                 <div class="cafe2c">
 
-                    <img src="/image/imagen/Illustration (1).jpg" alt="check" ; width="64px" height="64px">
+                    <img src="/image/imagen/Illustration (2).jpgg" alt="check" ; width="64px" height="64px">
 
 
                     <h3>Recibe tu pedido sin preocuparte</h3>
@@ -157,7 +157,7 @@
                 <p> 9,00€</p>
                 </br>
 
-                <p><a class="boton-tienda" href="cesta.html">Aadir</a>
+                <p><a class="boton-tienda" href="cesta.html">Añadir</a>
             </div>
             <div class="bolsa-cafe"> <img src="image/imagen/Etiopia.png" alt="Etiopia">
                 <p><strong>
@@ -184,31 +184,53 @@
         </div>
         <div class="CafeGreen3Cajas">
             <div class="ComoHagoElPedido">
-                <h3> Como hago el pedido <img src="/ProyectoFinal/image/imagen/Chevron up.jpg" alt="flecha">
-                </h3>
-                <hr>
-                <div>
+                <div class="ComoHagoElPedidoHeader">
+                    <div>
+                        <h3> Como hago el pedido </h3>
+                    </div>
+                    <div onclick="arrow1()"> <img id="arrow1" src="/image/imagen/Chevron up.jpg " alt=flecha >
+                    </div>
+                </div>
+              
+                <div id="arrowbox1">
+                    <hr>
+
                     <p><small> el café que deseas prboar y completa el proceso de compra. si lo prefieres, te
                             preguntaremos
                             cada cuánto quieres que te lo mandemos a casa y así nunca te quedaras sin café</small></p>
                 </div>
             </div>
             <div class="PorqueLosPreciosSonTanBajos">
-                <h3>¿Por qué los precios son tan bajos?<img src="/ProyectoFinal/image/imagen/Chevron up.jpg"
-                        alt="flecha"></h3>
-                <hr>
-                <div>
-                    <p> <small> constantemente para encontrar los mejores granos y a los agricultores más exigentes. Si
-                            podemos ofrecerte estos precios es porque tratamos directamente con los productores de café,
-                            sin intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás de
+                <div class="PorqueLosPreciosSonTanBajosHeader">
+                    <div>
+                        <h3>¿Por qué los precios son tan bajos?</h3>
+                    </div>
+                    <div onclick="arrow2()"><img id="arrow2" src="image/imagen/Chevron up.jpg" alt="flecha" onclick="preguntasfrecuentes2()">
+                    </div>
+                </div>
+                <div id="arrowbox2">
+                    <hr>
+                    <p> <small> constantemente para encontrar los mejores granos y a los agricultores más exigentes.
+                            Si
+                            podemos ofrecerte estos precios es porque tratamos directamente con los productores de
+                            café,
+                            sin intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás
+                            de
                             los granos de café recibe el mayor beneficio posible. </small> </p>
                 </div>
-            </div>
+            </div> 
             <div class="EsPosibleEnviarCafeAMiOficina">
-                <h3>Es posible enviar cafe a mi oficina <img src="/ProyectoFinal/image/imagen/Chevron up.jpg"
-                        alt="flecha"></h3>
+               <div class="EsPosibleEnviarCafeAMiOficinaHeader"> 
+               <div> <h3>Es posible enviar cafe a mi oficina</h3> </div>
+                <div onclick="arrow3()"><img id="arrow3" src="image/imagen/Chevron up.jpg" onclick= "preguntasfrecuentes3()"
+                        alt="flecha">
+                </div>
+               </div>
+               
+               <div id="arrowbox3">
                 <hr>
-                <!-- <div> <p><small>jasdlflsadfjfsjdlf</small></p></div> -->
+                <p> <small> gf </small> </p>
+            </div>
             </div>
         </div>
         <div class="ResolvemosTusDudas"> <u>Resolvemos tus dudas</u> →
@@ -266,7 +288,7 @@
                     <div> <label for="email">Email</label></div>
                     <div><input type="email" id="email" name="email">
                     </div>
-                    <div> <label for="phone">Teléfono</label></div>
+                    <div> <label for="phone" >Teléfono</label></div>
                     <div> <select name="edad del usario" id="edad">
                     </div>
                     <div>
@@ -307,7 +329,7 @@
             <div class="footerLeft">
                 <div>Te ayudamos con </div>
                 <div class="Telefono">
-                    <div> <img src="/ProyectoFinal/image/emoti/PhoneIcon.jpg" alt="phone"></div>
+                    <div> <img src="/ProyectoFinal/image/emoti/Icon.svg" alt="phone"></div>
                     <div>+34 919 49 05 18</div>
                 </div>
                 <div class="emailHolaCafeAltura">
@@ -349,7 +371,7 @@
         <p>Todos los derechos reservados - Café de Altur SL -2022
         </p>
     </div>
-    <script src="main.js"></script>
+    <script src="/assets/main.js"></script>
 </body>
 
 </html>
