@@ -19,7 +19,7 @@
         </div>
         <div class="cafe1b">
             <div class="Tienda">
-                <a href="page/tienda.html" title="Tienda">
+                <a href="/tienda.html" title="Tienda">
                     <img src="image/emoti/Tienda.png" alt="Tienda">
                 </a>
             </div>
@@ -49,7 +49,8 @@
 
         </div>
         <div class="cafe1c">
-            <div> <a title="phone" href="tel:+34919490518"> <img src="/ProyectoFinal/image/" alt="phone"> </a> </div>
+            <div> <a title="phone" href="tel:+34919490518"> <img src="/image/emoti/telefono.png" alt="phone"> </a>
+            </div>
             <div class="init_sesion">
                 <a title="init" href="init.html"> <img src="image/emoti/inicio_secion.png" alt="inicio_secion"> </a>
             </div>
@@ -99,7 +100,7 @@
             <div class="cafe2b">
                 <div class="cafe2c">
 
-                    <img src="/image/imagen/Illustration (2).jpgg" alt="check" ; width="64px" height="64px">
+                    <img src="/image/imagen/Illustration (1).jpg" alt="check" ; width="64px" height="64px">
 
 
                     <h3>Recibe tu pedido sin preocuparte</h3>
@@ -134,44 +135,26 @@
         <div class="cafe4a">
             <img src="image/emoti/Novedades.png" alt="Novedades">
         </div>
-        <div class="cafe4b">
+        <div id="sacosTienda" class="row"></div>
 
-            <div class="bolsa-cafe"> <img src="image/imagen/Costarica.png" alt="Costarica">
-                <p><strong>Costa Rica Tarrazu</strong></p>
+        <template id="template-card">
 
+            <div class="card">
 
-                <p>9,00€ </p>
-                </br>
-                <p><a class="boton-tienda" href="cesta.html">Añadir</a>
-
+                <div class="card-body">
+                    <img clas="imagenCafe" src="" alt="imagenCafe">
+                    <h5 class="titulo">Titulo</h5>
+                    <p class="precio">precisdafo</p>
+                    <button class="btn-primary">Comprar</button>
+                </div>
             </div>
-            <div class="bolsa-cafe"> <img src="image/imagen/Colombia.png" alt="Colombia">
-                <p><strong>Colombia Los Naranjos</strong></p>
-                <p>9,00€</p>
-                </br>
-                <p><a class="boton-tienda" href="cesta.html">Añadir</a>
 
-            </div>
-            <div class="bolsa-cafe"> <img src="image/imagen/Laos.png" alt="Laos">
-                <p><strong>Laos Amanecer</strong></p>
-                <p> 9,00€</p>
-                </br>
+        </template>
 
-                <p><a class="boton-tienda" href="cesta.html">Añadir</a>
-            </div>
-            <div class="bolsa-cafe"> <img src="image/imagen/Etiopia.png" alt="Etiopia">
-                <p><strong>
-                        Etiopia Yrgacheff
-                    </strong></p>
-                <p>9,00€
 
-                </p>
-                </br>
-
-                <p><a class="boton-tienda" href="cesta.html">Añadir</a>
-                </p>
-            </div>
         </div>
+
+
         <div class="cafe4c">
             <a href="page/tienda.html" title="Tienda"><img src="image/emoti/Vertodo.png" alt="vertodo"></a>
         </div>
@@ -185,31 +168,39 @@
         <div class="CafeGreen3Cajas">
             <div class="ComoHagoElPedido">
                 <div class="ComoHagoElPedidoHeader">
+
+
                     <div>
                         <h3> Como hago el pedido </h3>
                     </div>
-                    <div onclick="arrow1()"> <img id="arrow1" src="/image/imagen/Chevron up.jpg " alt=flecha >
+
+
+                    <div onclick="arrow1()"> <img id="arrow1" src="/image/imagen/Chevron up.jpg " alt=flecha>
                     </div>
                 </div>
-              
-                <div id="arrowbox1">
-                    <hr>
 
+                <div id="arrowbox1">
+                    <img src="/image/emoti/Divider.jpg" alt="">
                     <p><small> el café que deseas prboar y completa el proceso de compra. si lo prefieres, te
                             preguntaremos
                             cada cuánto quieres que te lo mandemos a casa y así nunca te quedaras sin café</small></p>
                 </div>
             </div>
+
+
+
+
             <div class="PorqueLosPreciosSonTanBajos">
                 <div class="PorqueLosPreciosSonTanBajosHeader">
                     <div>
                         <h3>¿Por qué los precios son tan bajos?</h3>
                     </div>
-                    <div onclick="arrow2()"><img id="arrow2" src="image/imagen/Chevron up.jpg" alt="flecha" onclick="preguntasfrecuentes2()">
+                    <div onclick="arrow2()"><img id="arrow2" src="image/imagen/Chevron up.jpg" alt="flecha"
+                          >
                     </div>
                 </div>
                 <div id="arrowbox2">
-                    <hr>
+                    <img src="/image/emoti/Divider.jpg" alt="">
                     <p> <small> constantemente para encontrar los mejores granos y a los agricultores más exigentes.
                             Si
                             podemos ofrecerte estos precios es porque tratamos directamente con los productores de
@@ -218,19 +209,22 @@
                             de
                             los granos de café recibe el mayor beneficio posible. </small> </p>
                 </div>
-            </div> 
-            <div class="EsPosibleEnviarCafeAMiOficina">
-               <div class="EsPosibleEnviarCafeAMiOficinaHeader"> 
-               <div> <h3>Es posible enviar cafe a mi oficina</h3> </div>
-                <div onclick="arrow3()"><img id="arrow3" src="image/imagen/Chevron up.jpg" onclick= "preguntasfrecuentes3()"
-                        alt="flecha">
-                </div>
-               </div>
-               
-               <div id="arrowbox3">
-                <hr>
-                <p> <small> gf </small> </p>
             </div>
+            <div class="EsPosibleEnviarCafeAMiOficina">
+                <div class="EsPosibleEnviarCafeAMiOficinaHeader">
+                    <div>
+                        <h3>Es posible enviar cafe a mi oficina</h3>
+                    </div>
+                    <div onclick="arrow3()">
+                        <img id="arrow3" src="image/imagen/Chevron up.jpg" 
+                            alt="flecha">
+                    </div>
+                </div>
+
+                <div id="arrowbox3">
+                    <img src="/image/emoti/Divider.jpg" alt="">
+                    <p> <small> gfdfsadsfdsfdsasdfsdaffdsafdssdfsafdds </small> </p>
+                </div>
             </div>
         </div>
         <div class="ResolvemosTusDudas"> <u>Resolvemos tus dudas</u> →
@@ -266,7 +260,10 @@
             <div class="cafe6Container">
                 <p>Tambien puedes ponerte en contacto con nostros en nuestra direccion o a traves del telefono de la
                     tienda.</p>
-                <p> 742 Evergreen Terrace Springfield, OR 12345 </p>
+                <div>
+                    <p> 742 Evergreen Terrace </p>
+                    <p> Springfield, OR 12345</p>
+                </div>
                 <div>
                     <p> <img src="image/emoti/PhoneIcon.jpg" alt="phone"> +1 (555) 123-4567</p>
                     <p> <img src="image/emoti/Emailicon.png" alt="emailicon"> support@example.com </p>
@@ -278,40 +275,56 @@
 
         <div class="cafe6b">
 
-            <div class="cafe6bContainer">
-                <form action="fdf">
+            <form id="formularioLanding" action="">
+                <div class="cafe6bContainer">
                     <div>
-                        <label for="namesurname">Nombre completo</label>
-                    </div>
-                    <div> <input type="text" id="fname" name="fname">
-                    </div>
-                    <div> <label for="email">Email</label></div>
-                    <div><input type="email" id="email" name="email">
-                    </div>
-                    <div> <label for="phone" >Teléfono</label></div>
-                    <div> <select name="edad del usario" id="edad">
+                        <div>
+                            <label for="namesurname">Nombre completo</label>
+                        </div>
+                        <div>
+                            <input type="text" id="nameFormulario" name="fname" style="width: 470px">
+                        </div>
                     </div>
                     <div>
-                        <option value="" disabled selected>Select </option>
+                        <div> <label for="email">Email</label></div>
+                        <div><input type="email" id="emailFormulario" name="email" style="width: 470px">
+                        </div>
                     </div>
-                    <div> <input type="tel" id="tel" name="tel">
+                    <div>
+                        <div> <label for="phone">Teléfono</label></div>
+                        <div> <select nane="edad del usario">
+                        </div>
                     </div>
-                    <div><label for="Question"></label></div>
-                    <div> <textarea name="name" id="fd" cols="20" rows="10" placeholder="Dime BB"></textarea>
-                    </div>
-                    <div> <label for="Checkin"> <input type="checkbox" id="checkbox" name="checkbox">Acepto la Política
-                            de Privacidad y
-                            los Terminos y condiciones.</div>
-                    </label>
-                </form>
-            </div>
+                    <div>
+                        <div>
+                            <option value="" style="width: 38px">Select </option>
 
-            <div>
-                </form><input type="image" name="botondeenvio" src="image/emoti/Button.png" alt="Enviar formulario">
-                </form>
-                </select>
-            </div>
+                            <input type="tel" name="tel" id="phoneFormulario" style="width: 412px">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="Question"></label></div>
+                        <div> <textarea id="messageFormulario" name="name" id="fd" cols="20" rows="10"
+                                style="width: 470px ; height :107px" placeholder="Dime BB"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div> <label for="Checkin"> </label> <input type="checkbox" id="checkbox" name="checkbox">Acepto
+                            la Política de Privacidad y los Terminos y condiciones.</div>
+                    </div>
+
+
+                    <div>
+                        <input type="submit" name="" id="submitFormulario">
+                    </div>
+
+
+                </div>
+
+            </form>
         </div>
+
     </section>
 
 
@@ -321,19 +334,18 @@
 
 
 
-        <div class="titleFooter">cafede altura.com <img src="/ProyectoFinal/image/emoti/ps_coffee-hot.png"
-                alt="emoticafe">
+        <div class="titleFooter">cafede altura.com <img src="/image/emoti/ps_coffee-hot.png" alt="emoticafe">
 
 
 
             <div class="footerLeft">
                 <div>Te ayudamos con </div>
                 <div class="Telefono">
-                    <div> <img src="/ProyectoFinal/image/emoti/Icon.svg" alt="phone"></div>
+                    <div> <img src="/image/emoti/PhoneIcon.jpg" alt="phone"></div>
                     <div>+34 919 49 05 18</div>
                 </div>
                 <div class="emailHolaCafeAltura">
-                    <div><img src="/ProyectoFinal/image/emoti/Emailicon.png" alt="emailIcon"> </div>
+                    <div><img src="/image/emoti/Emailicon.png" alt="emailIcon"> </div>
                     <div>hola@cafedealtura.com</div>
                 </div>
             </div>
@@ -371,7 +383,10 @@
         <p>Todos los derechos reservados - Café de Altur SL -2022
         </p>
     </div>
+
+
     <script src="/assets/main.js"></script>
+
 </body>
 
 </html>

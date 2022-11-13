@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+    <title>Cesta</title>
+
+</head>
+
+<body>
+
+    <section id="cafe1">
+        <div class="cafe1a">
+            <a title="Home" href="index.html"> <img src="image/emoti/Logo.png" alt="Cafe de Altura"> </a>
+        </div>
+        <div class="cafe1b">
+            <div class="Tienda">
+                <a href="/tienda.html" title="Tienda">
+                    <img src="image/emoti/Tienda.png" alt="Tienda">
+                </a>
+            </div>
+            <div class="Suscripcion">
+                <a href="page/suscripcion.html" title="Suscripcion">
+                    <img src="image/emoti/Suscripcion.png" alt="Suscripcion">
+                </a>
+            </div>
+
+            <div class="empresas"><a title="para_empresas" href="page/empresas.html"> <img
+                        src="image/emoti/Para_empresas.png" alt="empresas">
+                </a>
+            </div>
+
+            <div class="about_us"><a title="about_us" href="page/about_us.html"> <img
+                        src="image/emoti/Sobre_nosotros.png" alt="about_us">
+
+                </a>
+            </div>
+            <div class="Contact"><a title="Contact" href="page/contact_us.html"> <img src="image/emoti/Contacto.png"
+                        alt="contact"> </a> </div>
+
+
+
+        </div>
+
+
+    
+        <div class="cafe1c">
+            <div> <a title="phone" href="tel:+34919490518"> <img src="/image/emoti/telefono.png" alt="phone"> </a>
+            </div>
+            <div class="init_sesion">
+                <a title="init" href="init.html"> <img src="image/emoti/inicio_secion.png" alt="inicio_secion"> </a>
+            </div>
+
+        </div>
+        <div class="cafe1d">
+
+            <a title="cesta" href="cesta.html"> <img src="image/emoti/Carr.png" alt="cesta"> </a>
+             <p class="carritoNumero"> 0 </p>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="cafe4">
+        <div class="contenedor">
+            cesta
+            <div id="sacosTienda" class="row"></div>
+
+            <template id="template-card">
+                <div>
+                    <div class="card">
+                  
+                        <div class="card-body">
+                            <img clas="imagenCafe" src="" alt="imagenCafe">
+                            <h5 class="titulo">Titulo</h5>
+                            <p class="precio">precisdafo</p>
+                            <button class="btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="cesta">
+
+        <div class="container">
+            <h4>Carrito de compras</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acción</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="items"></tbody>
+                <tfoot>
+                    <tr id="footer">
+                        <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                    </tr>
+                </tfoot>
+            </table>
+           
+        </div>
+
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            
+            <td>  <img src="image/emoti/Carr.png"> 10</td>
+            <td>
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                    vaciar todo
+                </button>
+            </td>
+            <td class="font-weight-bold">€ <span>5000</span></td>
+        </template>
+
+        <template id="template-carrito">
+            <tr>
+                <th scope="row">id</th>
+                <td>Café</td>
+                <td>1</td>
+                <td>
+                    <button class="btn btn-info btn-sm">
+                        +
+                    </button>
+                    <button class="btn btn-danger btn-sm">
+                        -
+                    </button>
+                </td>
+                <td><span>500</span>€</td>
+            </tr>
+        </template>
+    </section>
+
+    
+
+
+    <script src="/assets/tienda.js"></script>
+</body>
+
+</html>
