@@ -55,7 +55,7 @@ sacosTienda.addEventListener('click', e => {
 const addCarrito = e => {
 
   // console.log(e.target)
-  // console.log(e.target.classList.contains('btn-primary'))
+  console.log(e.target.classList.contains('btn-primary'))
   if (e.target.classList.contains('btn-primary')) {
 
     setCarrito(e.target.parentElement)
@@ -98,9 +98,7 @@ const footer = document.getElementById('footer')
 const templateFooter = document.getElementById('template-footer').content
 const templateCarrito = document.getElementById('template-carrito').content
 const templateHeader = document.getElementsByClassName('cafe1d').content
-console.log(templateHeader)
-console.log(templateFooter)
-console.log(templateCarrito)
+
 const pintarCarrito = () => {
 
   // console.log(carrito)

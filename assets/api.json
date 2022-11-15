@@ -2,7 +2,7 @@
     {
     "id": 1,
     "nombre": "Costa Rica",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   },
 
@@ -10,43 +10,43 @@
   {
     "id": 2,
     "nombre": "Colombia",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/Colombia.png"
   },
   {
     "id": 3,
     "nombre": "Laos",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   },
   {
     "id": 4,
     "nombre": "Etiopia",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   },
   {
     "id": 5,
     "nombre": "Kenia",
-    "precio": 1500,
+    "precio": "15,00€",
     "img": "image/imagen/CostaRica.png"
   },
   {
     "id": 6,
     "nombre": "Etiopia",
-    "precio": 1700,
+    "precio": "17,00€",
     "img": "image/imagen/CostaRica.png"
   },
   {
     "id": 7,
     "nombre": "Costa Rica",
-    "precio": 1200,
+    "precio": "12,00€",
     "img": "image/imagen/CostaRica.png"
   },
   {
     "id": 8,
     "nombre": "Colombia La Casita",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   }
 ]

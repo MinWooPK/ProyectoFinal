@@ -84,6 +84,8 @@ a {
 
 .cafe1d {
     margin-right: 3%;
+    display: flex;
+    flex-direction: row;
 }
 
 #cafe2 {
@@ -150,8 +152,16 @@ a {
 
 }
 
+#sacosTienda {
 
-.boton-tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#template-card {
     background: #2A5B45;
     border-radius: 10px;
 
@@ -161,7 +171,49 @@ a {
 
 }
 
-.boton-tienda:hover {
+
+.btn-primary {
+
+    background: #2A5B45;
+    border-radius: 4px;
+    width: 60px;
+    height: 32px;
+    color: white;
+}
+
+#sacosTienda {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-body {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    gap: 24px;
+    padding: 21px;
+
+}
+
+.card-body:hover {
+
+    background-color:  #F7F5F3;
+
+}
+
+.btn-primary:hover {
     background-color: #6A8C7D;
     background: #2A5B45;
     border-radius: 4px;
@@ -235,16 +287,6 @@ align-items: center; */
 
 
 
-
-.btnbtn-primary {
-
-    background-color: rgba(42, 91, 69, 0.7);
-    color: white;
-    border-radius: 2px;
-    padding: 8px;
-    gap: 8px;
-}
-
 .bolsa-cafe:hover {
 
     background-color: #F7F5F3;
@@ -252,7 +294,7 @@ align-items: center; */
 
 
 
-.btnbtn-primary:hover {
+.btn-primary:hover {
 
     background-color: #2A5B45;
 }
@@ -615,9 +657,9 @@ footer {
 
 .cestaBody {
 
-display: flex;
-flex-direction: row;
-align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 
 }
@@ -625,12 +667,12 @@ align-items: center;
 .totalCarrito {
 
     padding: 24px;
-gap: 16px;
+    gap: 16px;
 
 }
 
 .productosCesta {
 
     padding: 8px;
-gap: 24px;
+    gap: 24px;
 }

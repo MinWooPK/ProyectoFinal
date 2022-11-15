@@ -2,7 +2,7 @@
     {
     "id": 1,
     "nombre": "Costa Rica",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   },
 
@@ -10,20 +10,13 @@
   {
     "id": 2,
     "nombre": "Colombia",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/Colombia.png"
   },
   {
     "id": 3,
     "nombre": "Laos",
-    "precio": 900,
-    "img": "image/imagen/CostaRica.png"
-  },
-  {
-    "id": 4,
-    "nombre": "Etiopia",
-    "precio": 900,
+    "precio": "9,00€",
     "img": "image/imagen/CostaRica.png"
   }
-
 ]
